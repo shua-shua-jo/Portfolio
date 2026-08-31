@@ -51,62 +51,17 @@
 	<div class="service-row">
 		<div class="status-dot op" title="Operational"></div>
 		<div class="service-body">
-			<h3>Routewatch<span class="service-status op">Operational</span></h3>
+			<h3>Routewatch<span class="service-status op">Operational</span> (Test)</h3>
 			<p class="service-desc">
-				Real-time API uptime monitor with Slack alerting and historical latency graphs. Used by
-				three small teams in production.
+				lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+				labore et dolore magna aliqua.
 			</p>
 			<div class="service-tags">
 				<span class="tag">Go</span><span class="tag">PostgreSQL</span><span class="tag">Redis</span
 				><span class="tag">Docker</span>
 			</div>
 		</div>
-		<a href="#" class="service-link">github ↗</a>
-	</div>
-
-	<div class="service-row">
-		<div class="status-dot op" title="Operational"></div>
-		<div class="service-body">
-			<h3>Ledgerline<span class="service-status op">Operational</span></h3>
-			<p class="service-desc">
-				Self-hosted expense tracker with double-entry accounting under the hood. Started as a
-				personal tool, now has 200+ GitHub stars.
-			</p>
-			<div class="service-tags">
-				<span class="tag">TypeScript</span><span class="tag">Next.js</span><span class="tag"
-					>SQLite</span
-				>
-			</div>
-		</div>
-		<a href="#" class="service-link">live demo ↗</a>
-	</div>
-
-	<div class="service-row">
-		<div class="status-dot dev" title="In development"></div>
-		<div class="service-body">
-			<h3>Coldstart<span class="service-status dev">In development</span></h3>
-			<p class="service-desc">
-				A CLI that benchmarks and visualizes cold-start latency across serverless providers.
-				Currently supports AWS Lambda and Cloudflare Workers.
-			</p>
-			<div class="service-tags"><span class="tag">Rust</span><span class="tag">CLI</span></div>
-		</div>
-		<a href="#" class="service-link">github ↗</a>
-	</div>
-
-	<div class="service-row">
-		<div class="status-dot archived" title="Archived"></div>
-		<div class="service-body">
-			<h3>Weatherline<span class="service-status archived">Archived</span></h3>
-			<p class="service-desc">
-				A minimalist weather dashboard built while learning D3. Kept around as a reference for the
-				animation work.
-			</p>
-			<div class="service-tags">
-				<span class="tag">JavaScript</span><span class="tag">D3.js</span>
-			</div>
-		</div>
-		<a href="#" class="service-link">github ↗</a>
+		<a href="https://github.com/shua-shua-jo/" class="service-link">github ↗</a>
 	</div>
 </section>
 
