@@ -6,7 +6,6 @@
 
 	let isActive = (route: string) =>
 		page.url.pathname === route || page.url.pathname === route + '/';
-	export const prerender = true;
 
 	let { children } = $props();
 </script>
