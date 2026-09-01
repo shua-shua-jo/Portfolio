@@ -6,7 +6,7 @@ echo "        🚀 PRE-PUSH CHECK"
 echo "=========================================="
 echo ""
 
-FOOTER_FILE="src/lib/components/Footer.svelte"
+FOOTER_FILE="src/lib/layouts/Footer.svelte"
 
 CURRENT_YEAR=$(date +"%Y")
 
