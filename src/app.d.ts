@@ -8,6 +8,8 @@ declare global {
 		// interface PageState {}
 		// interface Platform {}
 	}
+
+	const __LAST_UPDATED__: string;
 }
 
 export {};

@@ -1,0 +1,59 @@
+#!/bin/sh
+
+echo ""
+echo "=========================================="
+echo "        🚀 PRE-PUSH CHECK"
+echo "=========================================="
+echo ""
+
+# Get current year
+CURRENT_YEAR=$(date +%Y)
+
+# Footer file
+FOOTER_FILE="src/lib/layouts/Footer.svelte"
+
+# Check if footer exists
+if [ ! -f "$FOOTER_FILE" ]; then
+    echo "⚠️  Footer file not found:"
+    echo "   $FOOTER_FILE"
+    echo ""
+else
+    # Look for a 4-digit year in the footer
+    FOOTER_YEAR=$(grep -oE '©[[:space:]]*[0-9]{4}' "$FOOTER_FILE" | head -1 | grep -oE '[0-9]{4}')
+
+    if [ -z "$FOOTER_YEAR" ]; then
+        echo "⚠️  Could not find a footer year."
+        echo ""
+    elif [ "$FOOTER_YEAR" != "$CURRENT_YEAR" ]; then
+        echo "❌ FOOTER DATE IS OUTDATED!"
+        echo ""
+        echo "   Footer year: $FOOTER_YEAR"
+        echo "   Current year: $CURRENT_YEAR"
+        echo ""
+        echo "Please update the footer before pushing."
+        echo ""
+        exit 1
+    else
+        echo "✅ Footer year is correct: $FOOTER_YEAR"
+        echo ""
+    fi
+fi
+
+echo "=========================================="
+printf "Continue with push? [y/N]: "
+read answer
+
+case "$answer" in
+    y|Y)
+        echo ""
+        echo "✅ Continuing push..."
+        echo ""
+        exit 0
+        ;;
+    *)
+        echo ""
+        echo "❌ Push cancelled."
+        echo ""
+        exit 1
+        ;;
+esac

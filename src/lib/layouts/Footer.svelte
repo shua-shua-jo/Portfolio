@@ -19,6 +19,6 @@
 >
 	<span>© 2026 Joshua Abello</span>
 	<span class="flex items-center gap-1.5 text-green">
-		<span class="pulse-dot" aria-hidden="true"></span>all systems operational · updated Aug 2026
+		<span class="pulse-dot" aria-hidden="true"></span>all systems operational · updated {__LAST_UPDATED__}
 	</span>
 </footer>
