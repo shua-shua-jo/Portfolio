@@ -1,42 +1,48 @@
-# sv
+# Joshua Abello — Portfolio
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This is my personal portfolio website, built to present my software engineering work, academic background, and side interests in a clean, honest, and human way.
 
-## Creating a project
+It is not a template portfolio. It is a custom single-site portfolio that reflects my own work history, projects, and career direction.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## About Me
 
-```sh
-# create a new project
-npx sv create my-app
-```
+I am a Computer Science graduate from the University of the Philippines Baguio, with a Cum Laude distinction. My work experience includes full-stack development with ASP.NET and Angular, and I have also explored research, design, and game development.
 
-To recreate this project with the same configuration:
+The site is structured around the idea that my profile is broader than a single title: I am a software engineer, a learner, and someone building toward more opportunities in tech.
 
-```sh
-# recreate this project
-npx sv@0.17.0 create --template minimal --types ts --add prettier eslint tailwindcss="plugins:none" --install npm ./
-```
+## What This Portfolio Shows
 
-## Developing
+- Software engineering experience and project work
+- Academic and research background
+- Data and machine learning interests
+- Design and visual thinking
+- Early game development learning
+- A personal, candid presentation rather than a polished generic template
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Pages
 
-```sh
-npm run dev
+This portfolio contains multiple sections:
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+- Home — software engineering profile and project overview
+- Data — research, analysis, thesis work, ML, and simulation projects
+- Design — design work and creative thinking
+- Game Dev — current learning roadmap and progress notes
 
-## Building
+## Stack
 
-To create a production version of your app:
+This project is built with:
 
-```sh
-npm run build
-```
+- SvelteKit
+- Svelte
+- TypeScript
+- Vite
+- Static site generation
+- CSS custom styling
 
-You can preview the production build with `npm run preview`.
+## Notes
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+This portfolio is intentionally personal and evolving. It is meant to communicate who I am, what I have built, and what I am currently learning — without pretending to be something I am not.
+
+## License
+
+This project is currently unlicensed unless otherwise specified.
