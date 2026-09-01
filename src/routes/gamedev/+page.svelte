@@ -9,9 +9,9 @@
 <section class="subhero">
 	<span
 		class="status-pill"
-		style="background:var(--color-amber-dim); color:var(--color-amber); border-color:#4A3A1E;"
+		style="background:var(--amber-dim); color:var(--amber); border-color:#4A3A1E;"
 	>
-		<span class="pulse-dot" style="background:var(--color-amber);" aria-hidden="true"></span>in
+		<span class="pulse-dot" style="background:var(--amber);" aria-hidden="true"></span>in
 		development
 	</span>
 	<div class="eyebrow" style="margin-top:18px;">new territory</div>
@@ -20,8 +20,7 @@
 	<p class="bio">
 		I don't have shipped games yet — this page exists so I have to keep it honest and keep it
 		updated. I'm starting from zero: learning a game engine, finishing small projects instead of one
-		big one, and posting progress here as it happens. Check back for updates, or follow along as the
-		log fills in.
+		big one, and posting progress here as it happens.
 	</p>
 </section>
 
@@ -105,7 +104,7 @@
 			<div class="log-date">2026-08</div>
 			<div class="log-text">
 				<strong>Started learning Godot</strong> — picked it for the built-in 2D tools and GDScript being
-				easy to pick up coming from a backend background.
+				easy to pick up coming from a C# / full-stack background.
 			</div>
 		</div>
 	</div>

@@ -8,60 +8,47 @@
 
 <section class="subhero">
 	<div class="eyebrow">also building</div>
-	<h1>Numbers that change what a team does next</h1>
-	<div class="role">Data Analysis</div>
+	<h1>Research and analysis behind the code</h1>
+	<div class="role">Data &amp; ML — academic foundation, growing into industry work</div>
 	<p class="bio">
-		I like data work that ends in a decision, not just a dashboard. Comfortable going from raw logs
-		and spreadsheets to a query, a chart, and a one-line recommendation someone can actually act on.
-		Selected work below.
+		This side of my work comes from research and coursework rather than a data analyst job title —
+		worth saying plainly. My thesis evaluated machine learning algorithms end-to-end, and a
+		networking project involved simulating and analyzing real traffic data. I'm looking to translate
+		that into more applied, business-facing data work.
 	</p>
 </section>
 
 <section>
 	<div class="section-head">
-		<span class="section-title">Analyses</span>
-		<span class="section-count">3 projects</span>
+		<span class="section-title">Research &amp; analysis</span>
+		<span class="section-count">2023–2024</span>
 	</div>
 
 	<div class="case-card">
-		<h3>Routewatch incident analysis</h3>
-		<div class="case-meta">SQL · Python · Pandas</div>
+		<h3>Evaluating Machine Learning Algorithms for Baybayin Character Classification</h3>
+		<div class="case-meta">Undergraduate Thesis · UP Baguio · 2024</div>
 		<p class="case-desc">
-			Analyzed a year of alerting data from my own monitoring tool to find that 68% of pages
-			happened outside business hours but got resolved fastest during them. Used the finding to
-			justify adding a lightweight on-call rotation instead of a costly third-party escalation
-			service.
+			Compared multiple machine learning algorithms on their ability to classify characters from
+			Baybayin, a pre-colonial Philippine writing system — model selection, evaluation, and analysis
+			from raw data to conclusions.
 		</p>
 		<div class="service-tags">
-			<span class="tag">PostgreSQL</span><span class="tag">Python</span><span class="tag"
-				>Matplotlib</span
+			<span class="tag">Python</span><span class="tag">Machine Learning</span><span class="tag"
+				>Model Evaluation</span
 			>
 		</div>
 	</div>
 
 	<div class="case-card">
-		<h3>Ledgerline spending dashboard</h3>
-		<div class="case-meta">SQL · Dashboarding · Data modeling</div>
+		<h3>VANET Project</h3>
+		<div class="case-meta">Simulation &amp; Analysis · UP Baguio · 2023</div>
 		<p class="case-desc">
-			Designed the aggregation layer and dashboard views for a personal-finance app, turning raw
-			transaction rows into monthly trend lines, category breakdowns, and anomaly flags for unusual
-			spending.
+			Simulated a vehicular ad hoc network between vehicles and road-side units along Harrison Road
+			in Baguio, using veins, OMNeT++, and SUMO — working with simulated traffic and network data to
+			study communication behavior.
 		</p>
 		<div class="service-tags">
-			<span class="tag">SQLite</span><span class="tag">SQL</span><span class="tag">Recharts</span>
-		</div>
-	</div>
-
-	<div class="case-card">
-		<h3>Open-source contributor activity study</h3>
-		<div class="case-meta">Python · GitHub API · Data cleaning</div>
-		<p class="case-desc">
-			Pulled commit and issue data across 40 open-source repos to study how response time to
-			first-time contributors affects whether they come back. Cleaned and modeled roughly 90,000
-			events for the analysis.
-		</p>
-		<div class="service-tags">
-			<span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">Jupyter</span>
+			<span class="tag">veins</span><span class="tag">OMNeT++</span><span class="tag">SUMO</span>
 		</div>
 	</div>
 </section>
@@ -73,30 +60,21 @@
 	</div>
 	<div class="stack-grid">
 		<div class="stack-group">
-			<h4>Query &amp; storage</h4>
-			<div class="stack-list">
-				<span class="stack-item">SQL</span><span class="stack-item">PostgreSQL</span>
-				<span class="stack-item">BigQuery</span>
-			</div>
-		</div>
-		<div class="stack-group">
 			<h4>Analysis</h4>
 			<div class="stack-list">
-				<span class="stack-item">Python</span><span class="stack-item">Pandas</span>
-				<span class="stack-item">NumPy</span>
+				<span class="stack-item">Python</span><span class="stack-item">MATLAB</span>
 			</div>
 		</div>
 		<div class="stack-group">
-			<h4>Visualization</h4>
+			<h4>Query &amp; storage</h4>
 			<div class="stack-list">
-				<span class="stack-item">Matplotlib</span><span class="stack-item">Tableau</span>
-				<span class="stack-item">Recharts</span>
+				<span class="stack-item">SQL</span><span class="stack-item">MySQL</span>
 			</div>
 		</div>
 		<div class="stack-group">
-			<h4>Workflow</h4>
+			<h4>Domain</h4>
 			<div class="stack-list">
-				<span class="stack-item">Jupyter</span><span class="stack-item">dbt</span>
+				<span class="stack-item">Machine Learning</span><span class="stack-item">Simulation</span>
 			</div>
 		</div>
 	</div>

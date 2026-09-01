@@ -18,7 +18,7 @@
 		<span class="font-bold tracking-tight text-text">ejdl.abello</span>
 		<nav class="topbar-nav flex gap-5 text-text-dim">
 			<a href={resolve('/')} class:active={isActive(resolve('/'))}>software</a>
-			<a href={resolve('/uiux')} class:active={isActive(resolve('/uiux'))}>ui/ux</a>
+			<a href={resolve('/design')} class:active={isActive(resolve('/design'))}>design</a>
 			<a href={resolve('/data')} class:active={isActive(resolve('/data'))}>data</a>
 			<a href={resolve('/gamedev')} class:active={isActive(resolve('/gamedev'))}>game dev</a>
 			<a href={resolve('/#contact')}>contact</a>

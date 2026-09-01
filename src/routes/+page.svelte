@@ -8,36 +8,37 @@
 
 <section class="hero">
 	<span class="status-pill"
-		><span class="pulse-dot" aria-hidden="true"></span>all systems operational</span
+		><span class="pulse-dot" aria-hidden="true"></span>open to opportunities</span
 	>
-	<h1>Joshua Abello</h1>
-	<div class="role">Backend &amp; Infrastructure Engineer</div>
+	<h1>Elijah Abello</h1>
+	<div class="role">Software Engineer — Full-Stack (ASP.NET · Angular)</div>
 	<p class="bio">
-		I build systems that stay up at 3am. Five years working on distributed backends, developer
-		tooling, and the occasional over-engineered side project. Currently focused on Go, Postgres, and
-		making deploys boring.
+		Computer Science graduate (Cum Laude, University of the Philippines Baguio) with a year of
+		professional experience building full-stack applications. I've shipped a registrar workflow
+		system, simulated vehicular networks for a thesis-adjacent project, and kept a client
+		relationship running after the company I worked for closed — because the work still mattered.
 	</p>
 	<div class="hero-actions">
 		<a href="#projects" class="btn btn-primary">View projects</a>
 		<a href="#contact" class="btn btn-ghost">Get in touch</a>
-		<a href="https://github.com/yourusername" class="btn btn-ghost">GitHub ↗</a>
+		<a href="https://github.com/shua-shua-jo" class="btn btn-ghost">GitHub ↗</a>
 	</div>
 	<div class="metrics">
 		<div class="metric">
-			<div class="metric-label">Uptime</div>
-			<div class="metric-value">99.98%</div>
+			<div class="metric-label">GPA</div>
+			<div class="metric-value">1.45</div>
 		</div>
 		<div class="metric">
-			<div class="metric-label">Experience</div>
-			<div class="metric-value">5 yrs</div>
+			<div class="metric-label">Honor</div>
+			<div class="metric-value">Cum Laude</div>
 		</div>
 		<div class="metric">
-			<div class="metric-label">Shipped</div>
-			<div class="metric-value">14 projects</div>
+			<div class="metric-label">Work Experience</div>
+			<div class="metric-value">1+ yr</div>
 		</div>
 		<div class="metric">
-			<div class="metric-label">Version</div>
-			<div class="metric-value">v3.2.0</div>
+			<div class="metric-label">Grad</div>
+			<div class="metric-value">2024</div>
 		</div>
 	</div>
 </section>
@@ -45,23 +46,68 @@
 <section id="projects">
 	<div class="section-head">
 		<span class="section-title">Projects</span>
-		<span class="section-count">4 services</span>
+		<span class="section-count">4</span>
 	</div>
 
 	<div class="service-row">
 		<div class="status-dot op" title="Operational"></div>
 		<div class="service-body">
-			<h3>Routewatch<span class="service-status op">Operational</span> (Test)</h3>
+			<h3>Client full-stack platform<span class="service-status op">Operational</span></h3>
 			<p class="service-desc">
-				lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-				labore et dolore magna aliqua.
+				Built and maintained full-stack applications as a Junior Software Engineer at Netzwelt Inc.,
+				collaborating in an agile team. When Netzwelt closed, I continued the work directly for the
+				client under contract.
 			</p>
 			<div class="service-tags">
-				<span class="tag">Go</span><span class="tag">PostgreSQL</span><span class="tag">Redis</span
-				><span class="tag">Docker</span>
+				<span class="tag">ASP.NET</span><span class="tag">Angular</span><span class="tag"
+					>Agile</span
+				>
 			</div>
 		</div>
-		<a href="https://github.com/shua-shua-jo/" class="service-link">github ↗</a>
+	</div>
+
+	<div class="service-row">
+		<div class="status-dot op" title="Operational"></div>
+		<div class="service-body">
+			<h3>UP2GO<span class="service-status op">Operational</span></h3>
+			<p class="service-desc">
+				A web app that handles form-request transactions for the UP Baguio registrar securely and
+				conveniently — built to solve a real problem: the registrar's email inbox was being
+				overwhelmed with requests.
+			</p>
+			<div class="service-tags">
+				<span class="tag">Web App</span><span class="tag">University Project</span>
+			</div>
+		</div>
+		<a href="https://github.com/shua-shua-jo" class="service-link">github ↗</a>
+	</div>
+
+	<div class="service-row">
+		<div class="status-dot archived" title="Archived"></div>
+		<div class="service-body">
+			<h3>Rizzle<span class="service-status archived">Archived</span></h3>
+			<p class="service-desc">
+				A mobile app designed and developed for the Philippine Institutions (P.I.) 100 class at UP
+				Baguio.
+			</p>
+			<div class="service-tags"><span class="tag">Mobile App</span></div>
+		</div>
+		<a href="https://github.com/shua-shua-jo" class="service-link">github ↗</a>
+	</div>
+
+	<div class="service-row">
+		<div class="status-dot archived" title="Archived"></div>
+		<div class="service-body">
+			<h3>VANET Project<span class="service-status archived">Archived</span></h3>
+			<p class="service-desc">
+				Simulated a vehicular ad hoc network between vehicles and road-side units along Harrison
+				Road in Baguio, using veins, OMNeT++, and SUMO (Simulation of Urban MObility).
+			</p>
+			<div class="service-tags">
+				<span class="tag">veins</span><span class="tag">OMNeT++</span><span class="tag">SUMO</span>
+			</div>
+		</div>
+		<a href="https://github.com/shua-shua-jo" class="service-link">github ↗</a>
 	</div>
 </section>
 
@@ -74,29 +120,30 @@
 		<div class="stack-group">
 			<h4>Languages</h4>
 			<div class="stack-list">
-				<span class="stack-item">Go</span><span class="stack-item">TypeScript</span>
-				<span class="stack-item">Python</span><span class="stack-item">Rust</span>
+				<span class="stack-item">Java</span><span class="stack-item">C#</span>
+				<span class="stack-item">Python</span><span class="stack-item">JavaScript</span>
 			</div>
 		</div>
 		<div class="stack-group">
-			<h4>Backend</h4>
+			<h4>Frameworks / Tools</h4>
 			<div class="stack-list">
-				<span class="stack-item">PostgreSQL</span><span class="stack-item">Redis</span>
-				<span class="stack-item">gRPC</span><span class="stack-item">Kafka</span>
+				<span class="stack-item">ASP.NET</span><span class="stack-item">Angular</span>
+				<span class="stack-item">React</span><span class="stack-item">Svelte</span>
+				<span class="stack-item">Node.js</span>
 			</div>
 		</div>
 		<div class="stack-group">
-			<h4>Infra</h4>
+			<h4>Databases</h4>
 			<div class="stack-list">
-				<span class="stack-item">Docker</span><span class="stack-item">Kubernetes</span>
-				<span class="stack-item">Terraform</span><span class="stack-item">AWS</span>
+				<span class="stack-item">SQL</span><span class="stack-item">MySQL</span>
 			</div>
 		</div>
 		<div class="stack-group">
-			<h4>Tooling</h4>
+			<h4>Other Tools</h4>
 			<div class="stack-list">
-				<span class="stack-item">Git</span><span class="stack-item">GitHub Actions</span>
-				<span class="stack-item">Grafana</span>
+				<span class="stack-item">Git</span><span class="stack-item">GitLab</span>
+				<span class="stack-item">Docker</span><span class="stack-item">MATLAB</span>
+				<span class="stack-item">Photoshop</span>
 			</div>
 		</div>
 	</div>
@@ -105,34 +152,42 @@
 <section id="log">
 	<div class="section-head">
 		<span class="section-title">Log</span>
-		<span class="section-count">recent activity</span>
+		<span class="section-count">experience &amp; education</span>
 	</div>
 	<div>
 		<div class="log-entry">
-			<div class="log-date">2026-08</div>
+			<div class="log-date">2025-2026</div>
 			<div class="log-text">
-				<strong>Started at Acme Corp</strong> — joined the platform team working on internal developer
-				tooling and CI infrastructure.
+				<strong>Junior Software Engineer, Netzwelt Inc. / Client Contract</strong> — full-stack development
+				with ASP.NET and Angular; continued the engagement directly with the client after Netzwelt's closure.
 			</div>
 		</div>
 		<div class="log-entry">
-			<div class="log-date">2026-03</div>
+			<div class="log-date">2024</div>
 			<div class="log-text">
-				<strong>Shipped Ledgerline v1.0</strong> — first public release after four months of nights-and-weekends
-				work.
+				<strong>B.S. Computer Science, UP Baguio</strong> — Cum Laude, GPA 1.45. Thesis: "Evaluating Machine
+				Learning Algorithms For Baybayin Character Classification."
 			</div>
 		</div>
 		<div class="log-entry">
-			<div class="log-date">2025-11</div>
+			<div class="log-date">2024</div>
 			<div class="log-text">
-				<strong>Spoke at LocalDevConf</strong> — gave a talk on designing observable systems for small
-				teams.
+				<strong>Mobile App Developer, UP Baguio</strong> — designed and built Rizzle for the Philippine
+				Institutions 100 class.
 			</div>
 		</div>
 		<div class="log-entry">
-			<div class="log-date">2024-06</div>
+			<div class="log-date">2023</div>
 			<div class="log-text">
-				<strong>B.S. Computer Science</strong> — graduated, focus on distributed systems.
+				<strong>Web App Developer, UP Baguio</strong> — built UP2GO to secure and streamline registrar
+				form requests.
+			</div>
+		</div>
+		<div class="log-entry">
+			<div class="log-date">2023</div>
+			<div class="log-text">
+				<strong>Graphic Designer, ComSciatUP.BAG &amp; Rotaract Club of UP Baguio</strong> — created graphics
+				for organization publications.
 			</div>
 		</div>
 	</div>
@@ -140,5 +195,5 @@
 
 <Footer
 	footerHeading="Let's talk"
-	footerText="Open to backend, infra, and platform engineering roles — and always up for talking through an interesting systems problem."
+	footerText="Open to software engineering roles, especially full-stack work with room to keep learning."
 />
