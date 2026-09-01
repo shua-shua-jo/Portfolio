@@ -19,6 +19,10 @@
 >
 	<span>© 2026 Joshua Abello</span>
 	<span class="flex items-center gap-1.5 text-green">
-		<span class="pulse-dot" aria-hidden="true"></span>all systems operational · updated {__LAST_UPDATED__}
+		<span class="relative flex size-1.5">
+			<span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-green opacity-75"
+			></span>
+			<span class="relative inline-flex size-1.5 rounded-full bg-green"></span>
+		</span>all systems operational · updated {__LAST_UPDATED__}
 	</span>
 </footer>

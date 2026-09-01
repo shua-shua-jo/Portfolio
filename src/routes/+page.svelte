@@ -7,10 +7,14 @@
 </svelte:head>
 
 <section class="hero">
-	<span class="status-pill"
-		><span class="pulse-dot" aria-hidden="true"></span>open to opportunities</span
+	<span class="status-pill">
+		<span class="relative flex size-2">
+			<span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-green opacity-75"
+			></span>
+			<span class="relative inline-flex size-2 rounded-full bg-green"></span>
+		</span>open to opportunities</span
 	>
-	<h1>Elijah Abello</h1>
+	<h1>Elijah Joshua Abello</h1>
 	<div class="role">Software Engineer — Full-Stack (ASP.NET · Angular)</div>
 	<p class="bio">
 		Computer Science graduate (Cum Laude, University of the Philippines Baguio) with a year of

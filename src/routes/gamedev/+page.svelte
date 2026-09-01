@@ -9,10 +9,13 @@
 <section class="subhero">
 	<span
 		class="status-pill"
-		style="background:var(--amber-dim); color:var(--amber); border-color:#4A3A1E;"
+		style="background:var(--color-amber-dim); color:var(--color-amber); border-color:#4A3A1E;"
 	>
-		<span class="pulse-dot" style="background:var(--amber);" aria-hidden="true"></span>in
-		development
+		<span class="relative flex size-2">
+			<span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-amber opacity-75"
+			></span>
+			<span class="relative inline-flex size-2 rounded-full bg-amber"></span>
+		</span>in development
 	</span>
 	<div class="eyebrow" style="margin-top:18px;">new territory</div>
 	<h1>Learning game development</h1>
