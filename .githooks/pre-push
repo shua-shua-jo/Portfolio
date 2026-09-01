@@ -6,54 +6,46 @@ echo "        🚀 PRE-PUSH CHECK"
 echo "=========================================="
 echo ""
 
-# Get current year
-CURRENT_YEAR=$(date +%Y)
+FOOTER_FILE="src/lib/components/Footer.svelte"
 
-# Footer file
-FOOTER_FILE="src/lib/layouts/Footer.svelte"
+CURRENT_YEAR=$(date +"%Y")
 
-# Check if footer exists
+# ------------------------------------------
+# CHECK FOOTER YEAR
+# ------------------------------------------
+
 if [ ! -f "$FOOTER_FILE" ]; then
     echo "⚠️  Footer file not found:"
     echo "   $FOOTER_FILE"
     echo ""
-else
-    # Look for a 4-digit year in the footer
-    FOOTER_YEAR=$(grep -oE '©[[:space:]]*[0-9]{4}' "$FOOTER_FILE" | head -1 | grep -oE '[0-9]{4}')
-
-    if [ -z "$FOOTER_YEAR" ]; then
-        echo "⚠️  Could not find a footer year."
-        echo ""
-    elif [ "$FOOTER_YEAR" != "$CURRENT_YEAR" ]; then
-        echo "❌ FOOTER DATE IS OUTDATED!"
-        echo ""
-        echo "   Footer year: $FOOTER_YEAR"
-        echo "   Current year: $CURRENT_YEAR"
-        echo ""
-        echo "Please update the footer before pushing."
-        echo ""
-        exit 1
-    else
-        echo "✅ Footer year is correct: $FOOTER_YEAR"
-        echo ""
-    fi
+    exit 1
 fi
 
-echo "=========================================="
-printf "Continue with push? [y/N]: "
-read answer
+FOOTER_YEAR=$(grep -oE '©[[:space:]]*[0-9]{4}' "$FOOTER_FILE" | head -1 | grep -oE '[0-9]{4}')
 
-case "$answer" in
-    y|Y)
-        echo ""
-        echo "✅ Continuing push..."
-        echo ""
-        exit 0
-        ;;
-    *)
-        echo ""
-        echo "❌ Push cancelled."
-        echo ""
-        exit 1
-        ;;
-esac
+if [ -z "$FOOTER_YEAR" ]; then
+    echo "⚠️  Could not find footer year."
+    echo ""
+    exit 1
+fi
+
+if [ "$FOOTER_YEAR" != "$CURRENT_YEAR" ]; then
+    echo "❌ FOOTER YEAR IS OUTDATED!"
+    echo ""
+    echo "   Found:    $FOOTER_YEAR"
+    echo "   Expected: $CURRENT_YEAR"
+    echo ""
+    echo "Push cancelled."
+    exit 1
+fi
+
+echo "✅ Footer year is correct: $FOOTER_YEAR"
+
+echo ""
+echo "=========================================="
+echo "✅ Pre-push check passed!"
+echo "🚀 Continuing push..."
+echo "=========================================="
+echo ""
+
+exit 0
