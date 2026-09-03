@@ -27,6 +27,7 @@
 </script>
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
+<div class="background-icon" style={`--svg: url("${favicon}")`}></div>
 <div class="sticky top-0 z-10 border-b border-border bg-[rgba(11,15,20,0.9)] backdrop-blur-sm">
 	<div
 		class="mx-auto my-0 flex max-w-210 items-center justify-between px-6 py-3.5 font-mono text-[13px]"

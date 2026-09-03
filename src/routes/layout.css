@@ -52,6 +52,29 @@ a {
 	color: inherit;
 	text-decoration: none;
 }
+
+.background-icon {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	z-index: -1;
+	background-color: var(--color-border);
+	opacity: 0.1;
+
+	mask-image: var(--svg);
+	mask-position: center;
+	mask-size: cover;
+	mask-repeat: no-repeat;
+
+	-webkit-mask-image: var(--svg);
+	-webkit-mask-position: center;
+	-webkit-mask-size: cover;
+	-webkit-mask-repeat: no-repeat;
+}
 .wrap {
 	max-width: 840px;
 	margin: 0 auto;
