@@ -1,5 +1,7 @@
 <script>
+	import Avatar from '$lib/components/Avatar.svelte';
 	import Footer from '$lib/layouts/Footer.svelte';
+	import { Canvas } from '@threlte/core';
 </script>
 
 <svelte:head>
@@ -196,6 +198,12 @@
 		</div>
 	</div>
 </section>
+
+<div style="width: 100%; height: 500px;">
+	<Canvas>
+		<Avatar />
+	</Canvas>
+</div>
 
 <Footer
 	footerHeading="Let's talk"
