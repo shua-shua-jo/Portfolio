@@ -1,7 +1,8 @@
 <!-- src/routes/+layout.svelte -->
 <script lang="ts">
 	import './layout.css';
-	import favicon from '$lib/assets/favicon.svg';
+	import favicon_dark from '$lib/assets/favicon.svg';
+	import favicon_white from '$lib/assets/favicon_white.svg';
 	import { page } from '$app/state';
 	import { resolve } from '$app/paths';
 	import { initScene } from '$lib/scene';
@@ -24,7 +25,7 @@
 	});
 </script>
 
-<svelte:head><link rel="icon" href={favicon} /></svelte:head>
+<svelte:head><link rel="icon" href={favicon_white} /></svelte:head>
 
 <!-- atmosphere layers -->
 <div class="atmos" aria-hidden="true">
@@ -41,7 +42,8 @@
 <header class="topbar">
 	<div class="topbar-inner">
 		<a class="logo" href={resolve('/')} aria-label="Home">
-			<span class="mark"><img src={favicon} alt="favicon" /></span><span>ejdl.abello</span>
+			<span class="mark"><img src={favicon_dark} alt="favicon_dark" /></span><span>ejdl.abello</span
+			>
 		</a>
 		<nav id="navlinks" class="nav-links" class:open={openMenu} aria-label="Primary">
 			<a href={resolve('/')} class:active={isActive(resolve('/'))} onclick={closeMenu}>software</a>
