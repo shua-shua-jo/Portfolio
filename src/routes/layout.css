@@ -272,7 +272,7 @@ body.has-pointer .spotlight {
 		color 0.2s ease,
 		background 0.2s ease;
 }
-.nav-links a:hover {
+.nav-links a:not(.nav-cta):hover {
 	color: var(--text);
 	background: rgba(148, 163, 184, 0.07);
 }
