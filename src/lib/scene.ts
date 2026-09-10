@@ -10,8 +10,7 @@ let topbarEl: HTMLElement | null = null;
 let spotEl: HTMLElement | null = null;
 
 const reduced = () =>
-	typeof window !== 'undefined' &&
-	window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+	typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 function onScroll() {
 	const h = document.documentElement;
@@ -51,15 +50,17 @@ function bindGlobalListeners() {
 }
 
 function bindCardGlow() {
-	document.querySelectorAll<HTMLElement>('.card, .metric, .case-card, .service-row').forEach((el) => {
-		if (el.dataset.glowBound) return;
-		el.dataset.glowBound = '1';
-		el.addEventListener('pointermove', (e) => {
-			const r = el.getBoundingClientRect();
-			el.style.setProperty('--mx', `${e.clientX - r.left}px`);
-			el.style.setProperty('--my', `${e.clientY - r.top}px`);
+	document
+		.querySelectorAll<HTMLElement>('.card, .metric, .case-card, .service-row')
+		.forEach((el) => {
+			if (el.dataset.glowBound) return;
+			el.dataset.glowBound = '1';
+			el.addEventListener('pointermove', (e) => {
+				const r = el.getBoundingClientRect();
+				el.style.setProperty('--mx', `${e.clientX - r.left}px`);
+				el.style.setProperty('--my', `${e.clientY - r.top}px`);
+			});
 		});
-	});
 }
 
 let revealIO: IntersectionObserver | null = null;
